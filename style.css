@@ -1,0 +1,40 @@
+h1 {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 60%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px 13px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+li span {
+  margin-right: 10px;
+}
+
+.deleteBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  color: white;
+  padding: 4px;
+  border-radius: 50%;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+}
